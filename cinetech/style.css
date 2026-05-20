@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.titulo{
+    display: inline-block;
+    border-bottom: 5px solid black;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#mk2{
+    background-image: url("https://static3.moviehub.com.br/fotos/filmes/poster/16521_medio.jpg");
+}
+
+.filme{
+    width: 150px;
+    height: 200px;
+    background-size: cover;
+    border: 2px solid;
+    border-image: linear-gradient(to right, red, blue) 1;
+}
+
+.cartaz{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 160px;
+}
+
+.informacao{
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    align-items: center;
+    text-align: end;
+}
+
+.titulo-filme h5{
+    font-size: 12px;
+}
+
+.titulo-filme p{
+    font-size: 10px;
+}
+
+.cla18{
+    background-color: black;
+    color: white;
+}
+
+.classificacao{
+    width: 30px;
+    height: 30px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+button{
+    background-color: blue;
+    color: aliceblue;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+button:hover{
+    transform: scale(1.05);
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#mk3{
+    background-image: url(15288_medio.jpg);
+    
+}
+.cla6{
+    background-color: rgb(255, 0, 200);
+    color: rgb(255, 255, 255)
+}
+#mk4{
+    background-image: url(16944_medio.jpg);
+    
+}
+.cla12{
+    background-color: rgb(238, 255, 0);
+    color: rgb(255, 255, 255)
+}
+#mk5{
+    background-image: url(15945_medio.jpg);
+    
+}
+.cla14{
+    background-color: rgb(255, 123, 0);
+    color: rgb(255, 255, 255)
+}
+#mk6{
+    background-image: url(16678_medio.jpg);
+    
+}
+
+.filmes{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+}
